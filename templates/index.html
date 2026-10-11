@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Buenas Noticias — El periódico del Evangelio</title>
+  <meta name="description" content="Buenas Noticias: el periódico digital del Evangelio. Las mejores noticias de la historia, contadas como titulares de hoy.">
+  <meta property="og:title" content="Buenas Noticias">
+  <meta property="og:description" content="La mejor noticia de la historia, contada como si fuera de hoy.">
+  <meta name="theme-color" content="#FBF7EF">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v={{VERSION}}">
+</head>
+<body>
+
+  <!-- Navegación fija -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__in">
+      <a class="brand" href="#portada" aria-label="Buenas Noticias, ir a la portada">
+        <svg class="brand__sun" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="24" r="8"/><path d="M20 6v6M6 24h6M28 24h6M10 14l4 4M30 14l-4 4"/><path class="h" d="M2 32h36"/></svg>
+        <span>Buenas Noticias</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+        <span class="sr">Abrir menú</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+      <nav class="nav__menu" id="navMenu" aria-label="Secciones">
+        <a href="#titulares">Titulares</a>
+        <a href="#significado">¿Qué es el Evangelio?</a>
+        <a href="#secciones">Secciones</a>
+        <a href="#versiculo">Versículo del día</a>
+        <a class="btn btn--gold btn--sm" href="#suscribete">Recibir noticias</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Cabecera de periódico + portada -->
+    <section class="hero" id="portada">
+      <div class="hero__sky" aria-hidden="true">
+        <div class="hero__sun" data-depth="-0.35"></div>
+        <svg class="hero__hills hills--back" data-depth="0.12" viewBox="0 0 1440 300" preserveAspectRatio="none"><path d="M0 170c180-70 360-70 540-10s360 60 540 0 270-70 360-40v180H0z"/></svg>
+        <svg class="hero__hills hills--front" data-depth="0.04" viewBox="0 0 1440 300" preserveAspectRatio="none"><path d="M0 220c240-60 480-40 720 0s480 30 720-20v100H0z"/></svg>
+      </div>
+
+      <div class="wrap hero__in">
+        <div class="masthead load l1">
+          <span id="today">Edición de hoy</span>
+          <span>Edición eterna · Año de gracia</span>
+          <span>Gratis para todos</span>
+        </div>
+        {{HERO}}
+      </div>
+    </section>
+
+    <!-- Cinta de titulares en movimiento -->
+    <div class="ticker" aria-label="Titulares breves">
+      <div class="ticker__track" id="ticker">
+        {{TICKER}}
+      </div>
+    </div>
+
+    <!-- Titulares -->
+    <section class="news" id="titulares">
+      <div class="wrap">
+        <div class="news__head">
+          <h2 class="reveal">Titulares</h2>
+          <p class="reveal">Noticias verificadas por testigos, escritas hace casi dos mil años y todavía de actualidad.</p>
+        </div>
+
+        {{GRID}}
+        {{ARCHIVE}}
+      </div>
+    </section>
+
+    <!-- Significado -->
+    <section class="meaning" id="significado">
+      <div class="wrap meaning__in">
+        <div class="meaning__word" aria-hidden="true" data-depth="-0.1">Evangelio</div>
+        <div class="meaning__text">
+          <h2 class="reveal">¿Por qué nos llamamos Buenas Noticias?</h2>
+          <p class="reveal">La palabra «evangelio» viene del griego <em>euangelion</em>, que significa literalmente «buena noticia». En tiempos antiguos se usaba para anunciar una victoria o la llegada de un rey.</p>
+          <p class="reveal">Los primeros cristianos tomaron esa palabra para contar lo que habían visto: que Dios se acercó a la humanidad en Jesús, que perdonó, sanó, venció a la muerte y ofrece vida nueva a cualquiera. Ese es el periódico que tienes en tus manos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secciones -->
+    <section class="sections" id="secciones">
+      <div class="wrap">
+        <h2 class="reveal">Secciones del periódico</h2>
+        <div class="cols">
+          <article class="col reveal">
+            <span class="col__num">01</span>
+            <h3>Testimonios</h3>
+            <p>Historias reales de personas cuyas vidas cambiaron. Matrimonios restaurados, adicciones vencidas, familias reconciliadas.</p>
+          </article>
+          <article class="col reveal d1">
+            <span class="col__num">02</span>
+            <h3>Promesas</h3>
+            <p>Lo que Dios ha dicho y sigue cumpliendo. Una promesa nueva cada semana para leer, guardar y compartir.</p>
+          </article>
+          <article class="col reveal d2">
+            <span class="col__num">03</span>
+            <h3>Comunidad</h3>
+            <p>Iglesias, ministerios y personas sirviendo en su barrio: comedores, visitas, ayuda a quien lo necesita.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Versículo del día -->
+    <section class="verse" id="versiculo">
+      <div class="wrap verse__in">
+        <p class="verse__label reveal">Versículo del día</p>
+        <blockquote class="reveal">
+          <p id="verseText">Venid a mí todos los que estáis trabajados y cargados, que yo os haré descansar.</p>
+          <cite id="verseRef">Mateo 11:28</cite>
+        </blockquote>
+        <div class="verse__actions reveal">
+          <button class="btn btn--line-dark" id="verseNext" type="button">Otro versículo</button>
+          <button class="btn btn--gold" id="verseShare" type="button">Compartir por WhatsApp</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Suscripción -->
+    <section class="sub" id="suscribete">
+      <div class="wrap sub__in">
+        <div>
+          <h2 class="reveal">Recibe una buena noticia cada mañana.</h2>
+          <p class="reveal">Escríbenos tu nombre y te agregamos a la lista de difusión por WhatsApp. Sin costo, sin publicidad.</p>
+        </div>
+        <form class="form reveal d2" id="subForm" novalidate>
+          <div class="field">
+            <label for="s-name">Tu nombre</label>
+            <input id="s-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="s-city">Ciudad (opcional)</label>
+            <input id="s-city" name="city" type="text" autocomplete="address-level2">
+          </div>
+          <p class="form__error" id="subError" role="alert"></p>
+          <button class="btn btn--gold btn--full" type="submit">Suscribirme por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div>
+        <span class="footer__brand">Buenas Noticias</span>
+        <p>El periódico del Evangelio. Citas bíblicas de la Reina-Valera 1909. La invitación es a leer cada pasaje completo.</p>
+      </div>
+      <nav class="footer__links" aria-label="Enlaces del pie">
+        <a href="#titulares">Titulares</a>
+        <a href="#versiculo">Versículo del día</a>
+        <a href="#portada">Volver arriba</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> Buenas Noticias. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v={{VERSION}}"></script>
+</body>
+</html>

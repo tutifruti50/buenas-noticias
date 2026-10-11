@@ -1,0 +1,9 @@
+# Netlify publica la carpeta public/, que build.py genera y se guarda en el repositorio.
+[build]
+  publish = "public"
+  command = ""
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

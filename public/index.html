@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Buenas Noticias — El periódico del Evangelio</title>
+  <meta name="description" content="Buenas Noticias: el periódico digital del Evangelio. Las mejores noticias de la historia, contadas como titulares de hoy.">
+  <meta property="og:title" content="Buenas Noticias">
+  <meta property="og:description" content="La mejor noticia de la historia, contada como si fuera de hoy.">
+  <meta name="theme-color" content="#FBF7EF">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=1791745384">
+</head>
+<body>
+
+  <!-- Navegación fija -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__in">
+      <a class="brand" href="#portada" aria-label="Buenas Noticias, ir a la portada">
+        <svg class="brand__sun" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="24" r="8"/><path d="M20 6v6M6 24h6M28 24h6M10 14l4 4M30 14l-4 4"/><path class="h" d="M2 32h36"/></svg>
+        <span>Buenas Noticias</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+        <span class="sr">Abrir menú</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+      <nav class="nav__menu" id="navMenu" aria-label="Secciones">
+        <a href="#titulares">Titulares</a>
+        <a href="#significado">¿Qué es el Evangelio?</a>
+        <a href="#secciones">Secciones</a>
+        <a href="#versiculo">Versículo del día</a>
+        <a class="btn btn--gold btn--sm" href="#suscribete">Recibir noticias</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Cabecera de periódico + portada -->
+    <section class="hero" id="portada">
+      <div class="hero__sky" aria-hidden="true">
+        <div class="hero__sun" data-depth="-0.35"></div>
+        <svg class="hero__hills hills--back" data-depth="0.12" viewBox="0 0 1440 300" preserveAspectRatio="none"><path d="M0 170c180-70 360-70 540-10s360 60 540 0 270-70 360-40v180H0z"/></svg>
+        <svg class="hero__hills hills--front" data-depth="0.04" viewBox="0 0 1440 300" preserveAspectRatio="none"><path d="M0 220c240-60 480-40 720 0s480 30 720-20v100H0z"/></svg>
+      </div>
+
+      <div class="wrap hero__in">
+        <div class="masthead load l1">
+          <span id="today">Edición de hoy</span>
+          <span>Edición eterna · Año de gracia</span>
+          <span>Gratis para todos</span>
+        </div>
+        <p class="hero__kicker load l2">Última hora · Jerusalén, tercer día · 11 de octubre de 2026</p>
+        <h1 class="hero__title load l3">La tumba está vacía</h1>
+        <p class="hero__lead load l4" style="margin-bottom:20px">Mujeres que fueron temprano al sepulcro encontraron la piedra removida. El mensaje que recibieron cambió la historia: «No está aquí, ha resucitado». Testigos aseguran haberlo visto con vida.</p>
+        <p class="why hero__why load l4"><b>Lo que significa:</b> Si Cristo resucitó, el pago por el pecado fue aceptado y la muerte no tiene la última palabra.</p>
+        <div class="hero__ctas load l4" style="margin-top:32px">
+          <a class="btn btn--gold" href="noticias/la-tumba-esta-vacia.html">Leer la noticia completa</a>
+          <a class="btn btn--line" href="#titulares">Ver todos los titulares</a>
+        </div>
+        <p class="hero__ref load l4">Fuente: Mateo 28 · 1 Corintios 15 · Romanos 6</p>
+      </div>
+      </div>
+    </section>
+
+    <!-- Cinta de titulares en movimiento -->
+    <div class="ticker" aria-label="Titulares breves">
+      <div class="ticker__track" id="ticker">
+        <span>Mujeres encuentran el sepulcro vacío</span><i>✦</i><span>Hijo que se fue de casa recibe fiesta al volver</span><i>✦</i><span>Ciego de nacimiento ahora ve</span><i>✦</i><span>Cinco mil personas comen con cinco panes</span><i>✦</i><span>Cobrador de impuestos devuelve lo robado</span><i>✦</i><span>Tormenta se calma con una palabra</span><i>✦</i><span>De tal manera amó Dios al mundo</span><i>✦</i><span>Mujeres encuentran el sepulcro vacío</span><i>✦</i><span>Hijo que se fue de casa recibe fiesta al volver</span><i>✦</i><span>Ciego de nacimiento ahora ve</span><i>✦</i><span>Cinco mil personas comen con cinco panes</span><i>✦</i><span>Cobrador de impuestos devuelve lo robado</span><i>✦</i><span>Tormenta se calma con una palabra</span><i>✦</i><span>De tal manera amó Dios al mundo</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- Titulares -->
+    <section class="news" id="titulares">
+      <div class="wrap">
+        <div class="news__head">
+          <h2 class="reveal">Titulares</h2>
+          <p class="reveal">Noticias verificadas por testigos, escritas hace casi dos mil años y todavía de actualidad.</p>
+        </div>
+
+        <div class="grid">
+          <article class="story story--lead reveal">
+            <span class="tag ">Restauración</span>
+            <h3><a href="noticias/el-padre-que-corre.html">Padre corre a abrazar al hijo que lo había perdido todo</a></h3>
+            <p>Lo vio desde lejos, corrió hacia él y antes de escuchar sus disculpas ya lo estaba abrazando. Hubo anillo, ropa nueva y fiesta. «Estaba perdido y fue hallado».</p>
+            <p class="why"><b>Lo que significa:</b> Dios recibe al pecador que se arrepiente por pura gracia, no por sus méritos. El vestido nuevo es la justicia de Cristo que cubre al que cree.</p>
+            <span class="ref">Lucas 15:11-32<span class="more">Leer a fondo →</span></span>
+          </article>
+          <article class="story reveal d1">
+            <span class="tag tag--sky">Sanidad</span>
+            <h3><a href="noticias/ciego-de-nacimiento.html">Hombre ciego de nacimiento recupera la vista</a></h3>
+            <p>Sus vecinos no lo reconocían. Él solo repetía una cosa: «Antes era ciego, y ahora veo».</p>
+            <p class="why"><b>Lo que significa:</b> Todos nacemos ciegos para las cosas de Dios. Solo él puede abrirnos los ojos para ver a Cristo.</p>
+            <span class="ref">Juan 9<span class="more">Leer a fondo →</span></span>
+          </article>
+          <article class="story reveal d2">
+            <span class="tag tag--olive">Provisión</span>
+            <h3><a href="noticias/cinco-panes-dos-peces.html">Cinco panes y dos peces alimentan a una multitud</a></h3>
+            <p>Comieron cinco mil hombres, además de mujeres y niños. Sobraron doce canastas.</p>
+            <p class="why"><b>Lo que significa:</b> El milagro apuntaba a algo mayor: Jesús es el pan de vida. Él mismo es la provisión que el alma necesita.</p>
+            <span class="ref">Juan 6<span class="more">Leer a fondo →</span></span>
+          </article>
+          <article class="story reveal d1">
+            <span class="tag tag--rose">Perdón</span>
+            <h3><a href="noticias/zaqueo.html">Zaqueo, el cobrador más odiado, cambia de vida en una cena</a></h3>
+            <p>Jesús se invitó a su casa. Esa misma tarde Zaqueo prometió dar la mitad a los pobres y devolver cuatro veces lo robado.</p>
+            <p class="why"><b>Lo que significa:</b> Jesús busca primero. La generosidad de Zaqueo fue fruto de la salvación, no el precio para ganarla.</p>
+            <span class="ref">Lucas 19:1-10<span class="more">Leer a fondo →</span></span>
+          </article>
+          <article class="story reveal d2">
+            <span class="tag tag--sky">Esperanza</span>
+            <h3><a href="noticias/la-tormenta-se-calma.html">Tormenta en el mar de Galilea se calma con una orden</a></h3>
+            <p>Los discípulos temían naufragar. Bastó una palabra para que el viento cesara y hubiera gran calma.</p>
+            <p class="why"><b>Lo que significa:</b> Solo Dios manda al mar. Seguir a Cristo no evita las tormentas, pero él gobierna cada una.</p>
+            <span class="ref">Marcos 4:35-41<span class="more">Leer a fondo →</span></span>
+          </article>
+          <article class="story story--wide reveal">
+            <span class="tag ">Opinión</span>
+            <div>
+              <h3><a href="noticias/de-tal-manera-amo-dios.html">«De tal manera amó Dios al mundo…»</a></h3>
+            <p>El versículo que resume toda la noticia: Dios dio a su Hijo para que todo el que crea en él no se pierda, sino que tenga vida eterna.</p>
+            <p class="why"><b>Lo que significa:</b> El amor de Dios se mide en la cruz: dio a su Hijo para morir en lugar de pecadores, y la fe para recibirlo también es un regalo suyo.</p>
+            </div>
+            <span class="ref">Juan 3:1-21<span class="more">Leer a fondo →</span></span>
+          </article>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Significado -->
+    <section class="meaning" id="significado">
+      <div class="wrap meaning__in">
+        <div class="meaning__word" aria-hidden="true" data-depth="-0.1">Evangelio</div>
+        <div class="meaning__text">
+          <h2 class="reveal">¿Por qué nos llamamos Buenas Noticias?</h2>
+          <p class="reveal">La palabra «evangelio» viene del griego <em>euangelion</em>, que significa literalmente «buena noticia». En tiempos antiguos se usaba para anunciar una victoria o la llegada de un rey.</p>
+          <p class="reveal">Los primeros cristianos tomaron esa palabra para contar lo que habían visto: que Dios se acercó a la humanidad en Jesús, que perdonó, sanó, venció a la muerte y ofrece vida nueva a cualquiera. Ese es el periódico que tienes en tus manos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secciones -->
+    <section class="sections" id="secciones">
+      <div class="wrap">
+        <h2 class="reveal">Secciones del periódico</h2>
+        <div class="cols">
+          <article class="col reveal">
+            <span class="col__num">01</span>
+            <h3>Testimonios</h3>
+            <p>Historias reales de personas cuyas vidas cambiaron. Matrimonios restaurados, adicciones vencidas, familias reconciliadas.</p>
+          </article>
+          <article class="col reveal d1">
+            <span class="col__num">02</span>
+            <h3>Promesas</h3>
+            <p>Lo que Dios ha dicho y sigue cumpliendo. Una promesa nueva cada semana para leer, guardar y compartir.</p>
+          </article>
+          <article class="col reveal d2">
+            <span class="col__num">03</span>
+            <h3>Comunidad</h3>
+            <p>Iglesias, ministerios y personas sirviendo en su barrio: comedores, visitas, ayuda a quien lo necesita.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Versículo del día -->
+    <section class="verse" id="versiculo">
+      <div class="wrap verse__in">
+        <p class="verse__label reveal">Versículo del día</p>
+        <blockquote class="reveal">
+          <p id="verseText">Venid a mí todos los que estáis trabajados y cargados, que yo os haré descansar.</p>
+          <cite id="verseRef">Mateo 11:28</cite>
+        </blockquote>
+        <div class="verse__actions reveal">
+          <button class="btn btn--line-dark" id="verseNext" type="button">Otro versículo</button>
+          <button class="btn btn--gold" id="verseShare" type="button">Compartir por WhatsApp</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Suscripción -->
+    <section class="sub" id="suscribete">
+      <div class="wrap sub__in">
+        <div>
+          <h2 class="reveal">Recibe una buena noticia cada mañana.</h2>
+          <p class="reveal">Escríbenos tu nombre y te agregamos a la lista de difusión por WhatsApp. Sin costo, sin publicidad.</p>
+        </div>
+        <form class="form reveal d2" id="subForm" novalidate>
+          <div class="field">
+            <label for="s-name">Tu nombre</label>
+            <input id="s-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="s-city">Ciudad (opcional)</label>
+            <input id="s-city" name="city" type="text" autocomplete="address-level2">
+          </div>
+          <p class="form__error" id="subError" role="alert"></p>
+          <button class="btn btn--gold btn--full" type="submit">Suscribirme por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div>
+        <span class="footer__brand">Buenas Noticias</span>
+        <p>El periódico del Evangelio. Citas bíblicas de la Reina-Valera 1909. La invitación es a leer cada pasaje completo.</p>
+      </div>
+      <nav class="footer__links" aria-label="Enlaces del pie">
+        <a href="#titulares">Titulares</a>
+        <a href="#versiculo">Versículo del día</a>
+        <a href="#portada">Volver arriba</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> Buenas Noticias. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=1791745384"></script>
+</body>
+</html>
