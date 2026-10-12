@@ -12,7 +12,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] Juan 3:16 y Nicodemo (Juan 3)
 
 ## Evangelios
-- [ ] La mujer samaritana en el pozo (Juan 4)
+- [x] La mujer samaritana en el pozo (Juan 4)
 - [ ] Lázaro sale de la tumba (Juan 11)
 - [ ] El ladrón en la cruz (Lucas 23:39-43)
 - [ ] La mujer sorprendida en adulterio (Juan 8:1-11)
