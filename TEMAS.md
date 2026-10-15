@@ -15,7 +15,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] La mujer samaritana en el pozo (Juan 4)
 - [x] Lázaro sale de la tumba (Juan 11)
 - [x] El ladrón en la cruz (Lucas 23:39-43)
-- [ ] La mujer sorprendida en adulterio (Juan 8:1-11)
+- [x] La mujer sorprendida en adulterio (Juan 8:1-11)
 - [ ] El leproso tocado por Jesús (Marcos 1:40-45)
 - [ ] El paralítico bajado por el techo: perdón antes que sanidad (Marcos 2:1-12)
 - [ ] La oveja perdida (Lucas 15:1-7)
