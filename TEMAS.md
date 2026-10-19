@@ -19,7 +19,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] El leproso tocado por Jesús (Marcos 1:40-45)
 - [x] El paralítico bajado por el techo: perdón antes que sanidad (Marcos 2:1-12)
 - [x] La oveja perdida (Lucas 15:1-7)
-- [ ] El fariseo y el publicano en el templo (Lucas 18:9-14)
+- [x] El fariseo y el publicano en el templo (Lucas 18:9-14)
 - [ ] El joven rico (Marcos 10:17-27)
 - [ ] El buen pastor da su vida (Juan 10)
 - [ ] La viuda y sus dos blancas (Marcos 12:41-44)
