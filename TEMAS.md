@@ -21,7 +21,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] La oveja perdida (Lucas 15:1-7)
 - [x] El fariseo y el publicano en el templo (Lucas 18:9-14)
 - [x] El joven rico (Marcos 10:17-27)
-- [ ] El buen pastor da su vida (Juan 10)
+- [x] El buen pastor da su vida (Juan 10)
 - [ ] La viuda y sus dos blancas (Marcos 12:41-44)
 - [ ] Pedro niega y es restaurado (Juan 18; 21:15-19)
 - [ ] La mujer que tocó el manto (Marcos 5:25-34)
