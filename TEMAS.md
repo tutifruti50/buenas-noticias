@@ -23,7 +23,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] El joven rico (Marcos 10:17-27)
 - [x] El buen pastor da su vida (Juan 10)
 - [x] La viuda y sus dos blancas (Marcos 12:41-44)
-- [ ] Pedro niega y es restaurado (Juan 18; 21:15-19)
+- [x] Pedro niega y es restaurado (Juan 18; 21:15-19)
 - [ ] La mujer que tocó el manto (Marcos 5:25-34)
 - [ ] La hija de Jairo (Marcos 5:21-43)
 - [ ] El centurión que creyó (Lucas 7:1-10)
