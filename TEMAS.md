@@ -25,7 +25,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] La viuda y sus dos blancas (Marcos 12:41-44)
 - [x] Pedro niega y es restaurado (Juan 18; 21:15-19)
 - [x] La mujer que tocó el manto (Marcos 5:25-34)
-- [ ] La hija de Jairo (Marcos 5:21-43)
+- [x] La hija de Jairo (Marcos 5:21-43)
 - [ ] El centurión que creyó (Lucas 7:1-10)
 - [ ] La mujer pecadora que ungió a Jesús (Lucas 7:36-50)
 - [ ] El endemoniado gadareno liberado (Marcos 5:1-20)
