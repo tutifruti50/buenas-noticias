@@ -27,7 +27,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] La mujer que tocó el manto (Marcos 5:25-34)
 - [x] La hija de Jairo (Marcos 5:21-43)
 - [x] El centurión que creyó (Lucas 7:1-10)
-- [ ] La mujer pecadora que ungió a Jesús (Lucas 7:36-50)
+- [x] La mujer pecadora que ungió a Jesús (Lucas 7:36-50)
 - [ ] El endemoniado gadareno liberado (Marcos 5:1-20)
 - [ ] Bartimeo el ciego (Marcos 10:46-52)
 - [ ] Los trabajadores de la viña (Mateo 20:1-16)
