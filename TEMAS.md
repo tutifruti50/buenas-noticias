@@ -30,7 +30,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] La mujer pecadora que ungió a Jesús (Lucas 7:36-50)
 - [x] El endemoniado gadareno liberado (Marcos 5:1-20)
 - [x] Bartimeo el ciego (Marcos 10:46-52)
-- [ ] Los trabajadores de la viña (Mateo 20:1-16)
+- [x] Los trabajadores de la viña (Mateo 20:1-16)
 - [ ] El sembrador (Mateo 13:1-23)
 - [ ] El tesoro escondido y la perla (Mateo 13:44-46)
 - [ ] El nacimiento de Jesús (Lucas 2:1-20)
