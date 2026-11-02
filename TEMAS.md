@@ -33,7 +33,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] Los trabajadores de la viña (Mateo 20:1-16)
 - [x] El sembrador (Mateo 13:1-23)
 - [x] El tesoro escondido y la perla (Mateo 13:44-46)
-- [ ] El nacimiento de Jesús (Lucas 2:1-20)
+- [x] El nacimiento de Jesús (Lucas 2:1-20)
 - [ ] El velo del templo se rasga (Mateo 27:45-54)
 - [ ] El camino a Emaús (Lucas 24:13-35)
 - [ ] Tomás: «Señor mío, y Dios mío» (Juan 20:24-29)
