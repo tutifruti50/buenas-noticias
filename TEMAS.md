@@ -34,7 +34,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] El sembrador (Mateo 13:1-23)
 - [x] El tesoro escondido y la perla (Mateo 13:44-46)
 - [x] El nacimiento de Jesús (Lucas 2:1-20)
-- [ ] El velo del templo se rasga (Mateo 27:45-54)
+- [x] El velo del templo se rasga (Mateo 27:45-54)
 - [ ] El camino a Emaús (Lucas 24:13-35)
 - [ ] Tomás: «Señor mío, y Dios mío» (Juan 20:24-29)
 - [ ] La gran comisión (Mateo 28:18-20)
