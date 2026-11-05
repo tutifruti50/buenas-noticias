@@ -36,7 +36,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] El nacimiento de Jesús (Lucas 2:1-20)
 - [x] El velo del templo se rasga (Mateo 27:45-54)
 - [x] El camino a Emaús (Lucas 24:13-35)
-- [ ] Tomás: «Señor mío, y Dios mío» (Juan 20:24-29)
+- [x] Tomás: «Señor mío, y Dios mío» (Juan 20:24-29)
 - [ ] La gran comisión (Mateo 28:18-20)
 - [ ] La ascensión (Hechos 1:1-11)
 
