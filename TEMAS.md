@@ -38,7 +38,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] El camino a Emaús (Lucas 24:13-35)
 - [x] Tomás: «Señor mío, y Dios mío» (Juan 20:24-29)
 - [x] La gran comisión (Mateo 28:18-20)
-- [ ] La ascensión (Hechos 1:1-11)
+- [x] La ascensión (Hechos 1:1-11)
 
 ## Hechos y cartas
 - [ ] Pentecostés: tres mil creen y se bautizan (Hechos 2)
