@@ -41,7 +41,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 - [x] La ascensión (Hechos 1:1-11)
 
 ## Hechos y cartas
-- [ ] Pentecostés: tres mil creen y se bautizan (Hechos 2)
+- [x] Pentecostés: tres mil creen y se bautizan (Hechos 2)
 - [ ] El eunuco etíope se bautiza en el camino (Hechos 8:26-40)
 - [ ] Saulo, el perseguidor, en el camino a Damasco (Hechos 9)
 - [ ] El carcelero de Filipos (Hechos 16:25-34)
