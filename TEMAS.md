@@ -42,7 +42,7 @@ Marca con [x] el tema usado. Cuando se acaben, se pueden agregar más siguiendo 
 
 ## Hechos y cartas
 - [x] Pentecostés: tres mil creen y se bautizan (Hechos 2)
-- [ ] El eunuco etíope se bautiza en el camino (Hechos 8:26-40)
+- [x] El eunuco etíope se bautiza en el camino (Hechos 8:26-40)
 - [ ] Saulo, el perseguidor, en el camino a Damasco (Hechos 9)
 - [ ] El carcelero de Filipos (Hechos 16:25-34)
 - [ ] Ninguna condenación para los que están en Cristo (Romanos 8:1)
